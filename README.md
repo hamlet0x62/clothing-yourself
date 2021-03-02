@@ -2,7 +2,9 @@
 A clothing game demo built with Spring Boot + RESTEasy.
 ### 项目简介
 此项目是一个使用Spring Boot和RESTEasy构建的`试衣间`小游戏，案例来自在校期间的课业设计。
+
 项目启动后，新玩家在浏览器输入`http://127.0.0.1:8080/jsp/login.jsp`进入登陆界面，在登陆界面注册账号并登入已进入游戏界面。
+
 如不想注册账号，也可以使用以下管理员账号登陆:
 - 账号:`hamlet`
 - 密码:`password`
@@ -59,6 +61,7 @@ A clothing game demo built with Spring Boot + RESTEasy.
 ![p9](assets/2021-03-02-16-04-00.png)
 
 每种服饰都以信息窗口的形式紧凑排列在一起，在编号、名称和价格信息的正下方可以看到有一排黑色图标。
+
 这些图标从左到右的功能依次是:
 1. 指示服饰的 `z-index` 属性，也就是控制衣服之间的覆盖关系，z-index 越大的衣服摆在越前面，越小则摆在越里面，可类比穿衣的顺序。
 2. 增加该服饰的`z-index`值
