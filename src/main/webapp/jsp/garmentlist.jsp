@@ -36,12 +36,12 @@ body {
 <body>
 <div id="queryBox">
 <label>性别：</label>
-<div class="optionBox" style="width: 100px;">
+<div class="optionBox" style="width: 100px;float:none">
 <div class="selectedOption" data-field="gender">请选择</div>
 <ul><li data-option="m">男</li><li data-option="f">女</li></ul>
 </div>
 <label>类别：</label>
-<div class="optionBox" style="width: 100px;">
+<div class="optionBox" style="width: 100px;float:none">
 <div class="selectedOption" data-field="clazzId">请选择</div><ul><li>男</li><li>女</li></ul>
 </div>
 
