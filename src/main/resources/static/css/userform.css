@@ -1,0 +1,28 @@
+div#userForm {
+	border-style: outset;
+}
+
+div .dialogBtnGroup {
+	margin-bottom: 0.5em;
+	text-align: center;
+}
+
+div .dialogBtnGroup button {
+	background-image: url(../images/ui/btGlass.png);
+	border-radius: 20px;
+	background-size: 100%;
+	font-size: 1.1em;
+	width: 100px;
+	margin: 0 auto;
+}
+
+div .dialogBtnGroup .cancelBtn{
+	background-color: #008CBA;
+	color: white;
+}
+
+div .dialogBtnGroup .ensureBtn{
+	background-color: #008CBA;
+	color: white;
+
+}

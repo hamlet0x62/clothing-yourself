@@ -1,0 +1,303 @@
+div#suitSpace {
+	z-index: -999;
+	width: 100%;
+	height: 100%;
+}
+
+div#windSpace {
+	vertical-align: top;
+	display: inline-block;
+}
+
+div#modelSpace {
+	width: 400px;
+	height: 678px;
+	z-index: -99;
+ 	background-image: url(../images/data/model/wheadAModel.png);
+	background-repeat: no-repeat;
+	background-size: contain; 
+	display: inline-block;
+	
+}
+
+div#ground {
+	height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 380px;
+    background-size: contain;
+    z-index: -99;
+    background-image: url(../images/ui/ground.png);
+}
+
+div#newWind {
+ 	display: none;
+ }
+
+img.ground {
+    z-index: -99;
+    width: 400px;
+    position: relative;
+    bottom: -320px;
+}
+
+div#modelSpace img.clothes {
+	width: 400px;
+	position: absolute;
+}
+
+div#queryBox {
+	background-image: url(../images/ui/glass.png);
+	background-size: cover;
+	margin-bottom: 5px;
+    box-shadow: 7px 4px 20px black;
+    position: absolute;
+}
+
+div#queryBox .btnBox {
+	height: 2em;
+	display: inline-block;
+}
+
+div#queryBox .btnBox button {
+	width: 60px;
+	bottom: 0px;
+	margin-top: 0px;
+}
+
+div#queryBox label {
+	line-height: 1.5em;
+	height: 1.5em;
+}
+
+
+div.optionBox {
+	display: inline-block;
+	background-color: rgb(136, 136, 136);
+	color: white;
+	width: 150px;
+}
+
+div#originGarmentWind {
+	display: none;
+}
+
+div.optionBox {
+	height: 1.5em;
+	border: 1px solid;
+}
+
+div.optionBox ul {
+	display: none;
+	list-style: none;
+	height: 1.5em;
+	line-height: 1.5em;
+	width: 150px;
+	max-height: 100px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: rgb(136, 136, 136);
+	position: absolute;
+	z-index: 99;
+	border: 1px solid;
+}
+
+div.optionBox li {
+	text-align: center;
+	width: 100%;
+	height: 1.5em;
+	line-height: 1.5em;
+	background-color: rgb(136, 136, 136);
+	border: 1px solid;
+}
+
+div.optionBox li:hover {
+	background-color: #419cf5;
+	color: white;
+	cursor: pointer;
+}
+
+div.optionBox li.selected {
+	background-color: blue;
+	color: white;
+}
+
+div.wind {
+	background-image: url(../images/ui/glass.png);
+	background-size: cover;
+	height: 120px;
+	width: 180px;
+	margin-left: 20px;
+	margin-top: 10px;
+	display: inline-block;
+	padding: 10px;
+}
+
+div.garmentWind {
+	background-image: url(../images/ui/glass.png);
+	background-size: cover;
+	height: 370px;
+	width: 320px;
+	display: block;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+div.garmentWind .opAddTo{
+	background-image: url(../images/ui/add.png);
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-size: cover;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+div.garmentDisplay img {
+	height: 250px;
+}
+
+div#asideBar {
+	display: inline-block;
+	float:right;
+	width: 350px;
+	height:678px;
+	margin: 0 auto;
+	overflow:scroll;
+	overflow-x: hidden;
+}
+
+div.wind label, div.garmentWind label {
+	display: inline-block;
+}
+
+div.wind span,div.garmentWind span {
+	min-width: 100px;
+	max-width: 130px; 
+	text-align : center;
+	margin-left: 10px;
+	border-radius: 20px;
+	height: 1.5em;
+	line-height: 1.5em;
+	text-align: center;
+	display: inline-block;
+}
+
+span.no {
+	background-color: #373535;
+	color: #cbcbcb;
+}
+
+span.name {
+	color: white;
+	background-color: lightslategrey;
+}
+
+span.price {
+	background-color: #f87e7e;
+	color: #fffe00;
+}
+
+div.wind .item, div.garmentWind .item {
+	height: 2em;
+	line-height: 2em;
+}
+
+
+button.addBtn, button.queryBtn {
+	background-color: #067bce;
+	color: #e5e9ea;
+}
+
+button.addBtn:hover, button.queryBtn:hover {
+	background-color: #3b92d0;
+}
+
+div#newWind button.delBtn {
+	display: none;
+}
+
+button.delBtn {
+	background-color: #d42d2d;
+	color: #fbf915de;
+}
+
+button.delBtn:hover {
+	background-color: #ef5555;
+	color: #fbf915de;
+}
+
+div.btnGroup {
+	margin-right: 20px;
+	line-height: 50px;
+	float: right;
+}
+
+div .suitTitle {
+	background-image: url(../images/ui/suitTitle.png);
+	color: #323347;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 3em;
+	line-height: 3em;
+	margin: 0 auto;
+}
+
+div.opBox {
+	height: 30px;
+	background-size: contain;
+	float: right;
+}
+
+div.opBox div {
+	display: inline-block;
+	width: 30px;
+	height: 1.5em;
+	background-size: cover;
+	cursor: pointer;
+}
+
+div.opBox .up {
+	background-image: url(../images/ui/up.png);
+}
+
+div.opBox .zIndex {
+	background-image: url(../images/ui/zIndex.png);
+}
+
+div.opBox .zIndexNum {
+	
+}
+
+div.opBox .down {
+	background-image: url(../images/ui/down.png);
+}
+
+div.opBox .remove {
+	background-image: url(../images/ui/remove.png);
+}
+
+div#priceTag {
+	width: 100px;
+	height: 3em;
+	text-align: center;
+	position:relative;
+	top: 550px;
+	left: 300px;
+}
+div#priceTag span{
+	display: inline-block;
+	width: 100%;
+	border-radius: 5px;
+
+
+}
+
+div#priceTag span.text{
+	background-color: #707174;
+    color: white;
+}
+div#priceTag span.value{
+    background-color: #434343;
+    color: #f1f1f1;
+}

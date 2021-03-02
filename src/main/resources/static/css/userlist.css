@@ -1,0 +1,71 @@
+.userTable th{
+	background-image: url(../images/ui/thGlass.png);
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+}
+
+#userTable table  {
+	background-image: url(../images/ui/glass.png);
+	background-color: rgb(238, 238, 238);
+	border-collapse: collapse;
+	border-right: 0;
+	color: #545658;
+
+}
+
+#userTable table tbody tr td{
+	border:1px solid #a09898;
+	border-left: 0;
+	border-top: 0;
+	line-height: 3em;
+/* 	background-image: url(../images/ui/cellGlass.png);
+	background-size: cover;
+	background-repeat: no-repeat; */
+
+}
+   
+#userTable table tbody tr td:hover{
+	background-image: url(../images/ui/cellRedGlass.png);
+	background-size: cover;  
+	color: white;
+	z-index: 1;
+} 
+
+div#userTable table tbody tr:hover{
+	background-image: url(../images/ui/rowHoverGlass.png);
+	background-size: cover;
+	z-index: 2;
+	
+}
+/* div#userTable table tbody tr:hover td{
+	background: none;
+	
+}
+ */
+#userTable table tr td:last-child,th:last-child{
+	border-right:0;
+}
+
+#userTable table tr td img{
+	width: 50px;
+}
+
+#userTable table button {
+	background-image: url(../images/ui/btGlass.png);
+	border-radius: 20px;
+	background-size: cover;
+	font-size: 1.1em;
+	width: 100px;
+	margin: 0 auto;
+}
+
+.alterBtn {
+	background-color: #078ce0;
+	color: #f0efef;
+}
+
+.delBtn {
+	background-color: #ff3f3f;
+    color: #f5f306;
+}

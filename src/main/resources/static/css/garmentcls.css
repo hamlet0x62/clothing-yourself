@@ -1,0 +1,99 @@
+div#windSpace{
+	float: left;
+	z-index: -999;
+}
+div.windGroup {
+	width: 250px;
+	margin-bottom: 1em;
+	line-height: 2em;
+	margin: 0 auto;
+	min-height: 2em;
+	
+}
+
+div.windGroup label{
+	float: left;
+	display: inline-block;
+	
+}
+
+div.windGroup input{
+	width: 80%;
+	line-height: 1em;
+	height: 1em;
+}
+
+div.windGroup .optionBox{
+	display: inline-block;
+	background-color: rgb(136, 136, 136);
+	width: 200px;
+}
+
+
+div.windGroup ul{
+	display: none;
+	position: absolute;
+	list-style: none;
+	height: 2em;
+	line-height: 2em;
+	width: 200px;
+	max-height: 100px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: rgb(136, 136, 136);
+}
+
+
+div.windGroup li{
+	text-align: center;
+	width: 100%;
+	height: 2em;
+	line-height: 2em;
+	background-color: rgb(136, 136, 136);
+}
+
+div.windGroup li:hover {
+	background-color: blue;
+	color: white;
+	cursor: pointer;
+}
+
+div.windGroup li.selected {
+	background-color: blue;
+	color: white;
+}
+
+div.wind {
+	background-image: url(../images/ui/glass.png);
+	background-repeat: cover;
+	min-height: 160px;
+	max-height: 300px;
+	width: 300px;
+	margin-left: 20px;
+	margin-top: 10px;
+	display: inline-block;
+}
+div.wind button {
+	position: relative;
+	background-image: url(../images/ui/btGlass.png);
+	border-radius: 20px;
+	background-size: cover;
+	font-size: 1.1em;
+	margin-top: 1em;
+	width: 100px;
+}
+div.wind .btnGroup {
+	margin-right: 20px;
+    line-height: 50px;
+	float: right;
+}
+
+div .suitTitle {
+	background-image: url(../images/ui/suitTitle.png);
+	color: #323347;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 3em;
+	line-height: 3em;
+	margin: 0 auto;
+}

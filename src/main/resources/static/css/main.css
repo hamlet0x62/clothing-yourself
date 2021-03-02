@@ -1,0 +1,162 @@
+
+div#userForm, .userForm {
+	background-color: rgb(211, 211, 211);
+	background-image: url(../images/ui/glass.png);
+	width: 350px;
+	min-height: 300px;
+	border-style: outset;
+}
+
+
+div .title {
+	background-color: #16181a;
+	color: white;
+	height: 35px;
+	font-size: 1.2em;
+	text-align: center;
+	line-height: 35px;
+}
+
+div.logoBox {
+	background-image: url(../images/ui/logo.png);
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+    display: inline-block;  
+}
+
+div .subtitle {
+	background-image: url(../images/ui/subTitle.png);
+	text-align: center;
+	color: #323347
+	
+}
+
+div #modelGroup {
+	text-align:center;
+	margin-top: 1em; 
+	height: 80px;
+	margin-bottom: 2em;  
+}
+
+div .modelBox {
+	display: inline-block;
+	text-align: center;
+	border: outset;
+	width: 70px;
+}
+
+div .modelBox img{
+	height: 80px;
+}
+
+
+div .modelBox:hover {
+	border: inset;
+}
+
+div .modelBox-checked {
+	border: inset;
+}
+
+input {
+	border-style: inset;
+	background: none;
+	border-top: 0px;
+	border-color: black;
+	border-left: hidden;
+	border-right: hidden;
+	width: 100%;
+	font-size: 1.2em;
+	border-bottom-width: thin;
+}
+
+table.infoTable {
+	width: 100%;
+	border-spacing: 0.8em;
+}
+
+td.label {
+	width: 80px;
+	padding: 0;
+	margin: 0 auto;
+	font-size: 0.9em;
+}
+
+input[type='radio'] {
+	width: 10px;
+}
+
+div.input-notice {
+	font-size: 0.5em;
+	display: table-row;
+	float: right;
+	color: red; 
+}
+
+div#loginForm {
+	width: 300px;
+	min-height: 150px;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	background-image: url(../images/ui/loginDialogBg.png)
+}
+
+.msg {
+	font-size: 0.5em;
+	margin-left: 5px;
+}
+
+.confirmBtn {
+	background-color: #008CBA;
+	color: white;
+	padding: 5px 100px;
+	font-size: 1.1em;
+	text-align: center;
+	position: relative;
+	border-radius: 5px;
+	margin-top: 0.5em;
+	margin-bottom:0.25em;
+}
+
+button#registerBtn {
+	background-color: #01b65a;
+}
+
+body #banner{
+	background-image:url(../images/ui/metal.png);
+	background-repeat: no-repeat;
+}
+
+button.addBtn, button.alterBtn {
+	background-color: #067bce;
+	color: #e5e9ea;
+}
+
+button.addBtn:hover, button.alterBtn:hover {
+	background-color: #3b92d0;
+}
+
+
+
+button.delBtn {
+	background-color: #d42d2d;
+	color: #fbf915de;
+}
+
+button.delBtn:hover {
+	background-color: #ef5555;
+	color: #fbf915de;
+}
+
+button.loginFromRegBtn{
+	padding: 2px;
+    font-size: 0.8em;
+    /* float: right; */
+    background-color: #9d057da1;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 1em;
+}

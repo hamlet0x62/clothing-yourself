@@ -1,0 +1,209 @@
+div#windSpace {
+	float: left;
+	z-index: -999;
+}
+
+div#queryBox {
+	background-image: url(../images/ui/metal.png);
+	width: 450px;
+	border-style: outset;
+	border-width: thin;
+	border-radius: 10px;
+	background-color: white;
+	height: 2.5em;
+	line-height: 2em;
+	padding: 5px;
+	display: block;
+}
+
+div#clearIcon {
+	background-image: url(../images/ui/remove.png);
+	background-size: cover;
+	display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 1.5em;
+    top: 2px;
+}
+
+div#queryBox .btnBox {
+	height: 2em;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+div#queryBox .btnBox button {
+	width: 60px;
+	bottom: 0px;
+	margin-top: 0px;
+}
+
+div#queryBox label {
+	line-height: 2em;
+	height: 2em;
+}
+
+div.windGroup {
+	width: 250px;
+	margin-bottom: 1em;
+	line-height: 2em;
+	margin: 0 auto;
+	min-height: 2em;
+	display: block;
+	margin-top: 0.3em;
+}
+
+div.windGroup label {
+	float: left;
+	display: inline-block;
+}
+
+div.windGroup input {
+	width: 80%;
+	line-height: 1.2em;
+	height: 1.2em;
+}
+
+div.optionBox {
+	display: inline-block;
+	background-color: rgb(136, 136, 136);
+	color: white;
+	width: 200px;
+}
+
+div.optionBox {
+	height: 2em;
+	width: 100px;
+	float: right;
+	border: 1px solid;
+}
+
+div.optionBox ul {
+	display: none;
+	list-style: none;
+	height: 2em;
+	line-height: 2em;
+	width: 200px;
+	max-height: 200px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: rgb(136, 136, 136);
+	position: absolute;
+	z-index: 99;
+	border: 1px solid;
+}
+
+div.optionBox li {
+	text-align: center;
+	width: 100%;
+	height: 2em;
+	line-height: 2em;
+	background-color: rgb(136, 136, 136);
+	border: 1px solid;
+}
+
+div.optionBox li:hover {
+	background-color: #419cf5;
+	color: white;
+	cursor: pointer;
+}
+
+div.optionBox li.selected {
+	background-color: blue;
+	color: white;
+}
+
+div.wind {
+	background-image: url(../images/ui/glass.png);
+	background-repeat: cover;
+	height: 400px;
+	width: 500px;
+	margin-left: 20px;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+button {
+	position: relative;
+	background-image: url(../images/ui/btGlass.png);
+	border-radius: 20px;
+	background-size: cover;
+	font-size: 1.1em;
+	margin-top: 1em;
+	width: 100px;
+}
+
+div.wind .leftGroup {
+	display: inline-block;
+	width: 300px;
+	text-align: center;
+}
+
+div.wind .uploadContainer {
+	display: inline-block;
+	width: 200px;
+	height: 230px;
+	margin: 0 auto;
+}
+
+div.wind .uploadContainer input {
+	display: none;
+}
+
+button.addBtn, button.queryBtn {
+	background-color: #067bce;
+	color: #e5e9ea;
+}
+
+button.addBtn:hover, button.queryBtn:hover {
+	background-color: #3b92d0;
+}
+
+div#newWind button.delBtn {
+	display: none;
+}
+
+button.delBtn {
+	background-color: #d42d2d;
+	color: #fbf915de;
+}
+
+button.delBtn:hover {
+	background-color: #ef5555;
+	color: #fbf915de;
+}
+
+div.uploadContainer {
+	width: 50px;
+	position: relative;
+	float: right;
+	top: 0px;
+	text-align: center;
+}
+
+div.uploadFilename {
+	position: relative;
+	top: 1em;
+}
+
+div.uploadContainer img {
+	width: 100px;
+	top: 50px;
+	position: relative;
+}
+
+div.btnGroup {
+	margin-right: 20px;
+	line-height: 50px;
+	float: right;
+}
+
+div .suitTitle {
+	background-image: url(../images/ui/suitTitle.png);
+	color: #323347;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 3em;
+	line-height: 3em;
+	margin: 0 auto;
+}
